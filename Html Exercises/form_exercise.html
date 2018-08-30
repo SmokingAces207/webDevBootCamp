@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Exercise</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form>
+      <div>
+        <label for="firstname">First Name: </label>
+        <input id="firstname" type="text" name="firstname" placeholder="Enter your firstname ..." required/>
+        <label for="lastname">Last Name: </label>
+        <input id="lastname" type="text" name="lastname" placeholder="Enter your lastname ..." required/>
+      </div>
+      
+      <div>
+        <label for="male">Male: </label>
+        <input id="male" type="radio" name="gender" value="male" />
+        <label for="female">Female: </label>
+        <input id="female" type="radio" name="gender" value="female" />
+      </div>
+
+      <div>
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="email" placeholder="Enter your email ..." required/>
+        <label for="password">Password: </label>
+        <input id="password" type="password" name="password" placeholder="Enter your password ..." pattern=".{8,12}" required title="8 to 12 characters"/>
+      </div>
+
+      <div>
+        <label for="birthday">Birthday: </label>
+        <select>
+          <option>Day</option>
+        </select>
+        <select>
+          <option>Month</option>
+        </select>
+        <select>
+          <option>Year</option>
+        </select>
+      </div>
+      
+      <div>
+        <label for="terms">I agree to the terms and conditions</label><input id="terms" type="checkbox" name="checkbox" />
+        <br />
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

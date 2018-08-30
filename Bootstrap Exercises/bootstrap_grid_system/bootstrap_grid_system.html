@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap Grid System</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		
+		<style type="text/css">
+			.pink {
+				background: pink;
+				border: 1px solid purple;
+			}
+			.orange {
+				background: orange;
+				border: 1px solid red;
+			}
+			.green {
+				background: green;
+				border: 1px solid blue;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 pink">Col Lg 6</div>
+				<div class="col-lg-6 pink">Col Lg 6</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 pink">Col Lg 4</div>
+				<div class="col-lg-4 pink">Col Lg 4</div>
+				<div class="col-lg-4 pink">Col Lg 4</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 pink">Col Lg 3</div>
+				<div class="col-lg-3 pink">Col Lg 3</div>
+				<div class="col-lg-3 pink">Col Lg 3</div>
+				<div class="col-lg-3 pink">Col Lg 3</div>
+			</div>
+		</div>
+		
+		<hr>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 green">Tour Date!</div>
+				<div class="col-md-3 col-sm-6 green">Tour Date!</div>
+				<div class="col-md-3 col-sm-6 green">Tour Date!</div>
+				<div class="col-md-3 col-sm-6 green">Tour Date!</div>
+			</div>
+		</div>
+		
+		<hr>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 pink">
+					<div class="row">
+						<div class="col-lg-6 orange">First Half</div>
+						<div class="col-lg-6 orange">Second Half</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 pink">Tour Date!</div>
+				<div class="col-md-3 col-sm-6 pink">Tour Date!</div>
+				<div class="col-md-3 col-sm-6 pink">Tour Date!</div>
+			</div>
+		</div>
+		
+	</body>
+	<footer>
+		<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+		<script src="bootstrap.js"></script>
+	</footer>
+</html>

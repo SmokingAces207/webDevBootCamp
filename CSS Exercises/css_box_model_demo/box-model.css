@@ -1,0 +1,43 @@
+h1 {
+	text-align: center;
+	font-weight: 700; 
+}
+
+table {
+	margin: auto;
+}
+
+table td {
+	width: 150px;
+	height: 150px;
+}
+
+.vertical {
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.horizontal {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+/*
+table tr:first-of-type td {
+	padding-top: 20%;
+	width: 250px;
+	border-bottom: 3px solid black;
+}
+
+table tr:first-of-type td:first-child {
+	border-right: 3px solid black;
+}
+
+table tr:first-of-type td:nth-child(2) {
+	border-right: 3px solid black;
+}
+
+table tr:nth-child(2) td:nth-child(2) {
+	padding: 10%;
+	border: 3px solid black;
+}*/
